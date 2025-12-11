@@ -77,7 +77,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     title: "Brain Tumor Center Nepal",
-    category: "WordPress/Wix",image: "/projects/wholisticbraintherapy.png"
+    category: "WordPress/Wix",image: "/projects/wholisticbraintherapy.png",
     image: "/projects/braintumor.png",
     url: "braintumorcenternepal.org.np",
     description: "Informational portal for a medical center providing critical health resources.",
