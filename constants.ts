@@ -47,7 +47,7 @@ export const PROJECTS_DATA: Project[] = [
     title: "School Management System",
     category: "PHP",
     image: "/blackboard.png",
-    url: "#",
+    url: "demo.bbnepal.com",
     description: "A comprehensive school management system handling student data, grading, and attendance designed with Core PHP.",
     tags: ["Core PHP", "MySQL", "Bootstrap"]
   },
@@ -86,7 +86,7 @@ export const PROJECTS_DATA: Project[] = [
   {
     title: "Trobustech Infrastructure",
     category: "DevOps",
-    image: "/trobustech",
+    image: "/trobustech.png",
     url: "trobustech.com",
     description: "IT company.",
     tags: ["Linux", "Docker", "CI/CD"]
