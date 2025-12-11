@@ -44,40 +44,53 @@ export const EXPERIENCE_DATA: Experience[] = [
 
 export const PROJECTS_DATA: Project[] = [
   {
+    title: "School Management System",
+    category: "Laravel/PHP",
+    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1632&auto=format&fit=crop",
+    url: "#",
+    description: "A comprehensive school management system handling student data, grading, and attendance designed with Core PHP.",
+    tags: ["Core PHP", "MySQL", "Bootstrap"]
+  },
+  {
     title: "Hotel Jiyan",
+    category: "WordPress/Wix",
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop",
     url: "hoteljiyan.com.np",
-    description: "Hotel booking and management website."
+    description: "Full-featured hotel booking website with room management and reservation systems.",
+    tags: ["WordPress", "Booking Engine", "CSS3"]
+  },
+  {
+    title: "Sales Funnels & Automation",
+    category: "GHL/Shopify",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop",
+    url: "lightwebgroup.com",
+    description: "High-conversion landing pages and marketing automation workflows for agency clients.",
+    tags: ["GoHighLevel", "Automation", "UI Design"]
   },
   {
     title: "Wholistic Brain Therapy",
+    category: "WordPress/Wix",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1470&auto=format&fit=crop",
     url: "wholisticbraintherapy.com",
-    description: "Therapy services and appointment information."
+    description: "Medical therapy service website offering appointment booking and information resources.",
+    tags: ["WordPress", "Elementor", "SEO"]
   },
   {
     title: "Brain Tumor Center Nepal",
+    category: "WordPress/Wix",
+    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1470&auto=format&fit=crop",
     url: "braintumorcenternepal.org.np",
-    description: "Medical information portal."
+    description: "Informational portal for a medical center providing critical health resources.",
+    tags: ["WordPress", "Custom Theme", "PHP"]
   },
   {
-    title: "LightWebGroup Projects",
-    url: "lightwebgroup.com",
-    description: "Agency portfolio and client projects."
-  },
-  {
-    title: "Trobustech Portfolio",
+    title: "Trobustech Infrastructure",
+    category: "DevOps",
+    image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1470&auto=format&fit=crop",
     url: "trobustech.com",
-    description: "Tech company portfolio and service showcase."
-  },
-   {
-    title: "JayateTech",
-    url: "jayatetech.com",
-    description: "Software Technology"
-  },
-   {
-    title: "Jayate Software",
-    url: "jayatesoftware.com",
-    description: "Software for network assesment"
-  },
+    description: "CI/CD pipeline configuration and server monitoring setup.",
+    tags: ["Linux", "Docker", "CI/CD"]
+  }
 ];
 
 export const SKILLS_DATA: string[] = [
@@ -88,6 +101,6 @@ export const SKILLS_DATA: string[] = [
 ];
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/", // Placeholder based on request for GitHub deployment
-  linkedin: "https://linkedin.com/", // Placeholder standard
+  github: "https://github.com/",
+  linkedin: "https://linkedin.com/",
 };

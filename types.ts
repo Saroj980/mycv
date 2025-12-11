@@ -1,7 +1,10 @@
 export interface Project {
   title: string;
+  category: string;
+  image: string;
   url: string;
   description?: string;
+  tags: string[];
 }
 
 export interface Experience {
