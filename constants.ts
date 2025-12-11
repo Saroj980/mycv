@@ -45,8 +45,8 @@ export const EXPERIENCE_DATA: Experience[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     title: "School Management System",
-    category: "Laravel/PHP",
-    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1632&auto=format&fit=crop",
+    category: "PHP",
+    image: "/blackboard.png",
     url: "#",
     description: "A comprehensive school management system handling student data, grading, and attendance designed with Core PHP.",
     tags: ["Core PHP", "MySQL", "Bootstrap"]
@@ -61,27 +61,19 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     title: "Lightwebgroup",
-    category: "WordPress/Wix",
+    category: "WordPress",
     image: "/lightwebgroup.png",
     url: "lightwebgroup.com",
     description: "IT Company",
-    tags: ["WordPress", "Booking Engine", "CSS3"]
+    tags: ["WordPress", "javascript", "CSS3"]
   },
   {
     title: "Sales Funnels & Automation",
     category: "GHL/Shopify",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop",
-    url: "lightwebgroup.com",
-    description: "High-conversion landing pages and marketing automation workflows for agency clients.",
-    tags: ["GoHighLevel", "Automation", "UI Design"]
-  },
-  {
-    title: "Wholistic Brain Therapy",
-    category: "WordPress/Wix",
     image: "/wholisticbraintherapy.png",
     url: "wholisticbraintherapy.com",
     description: "Medical therapy service website offering appointment booking and information resources.",
-    tags: ["WordPress", "Elementor", "SEO"]
+    tags: ["GoHighLevel", "Automation", "UI Design"]
   },
   {
     title: "Brain Tumor Center Nepal",
@@ -96,7 +88,7 @@ export const PROJECTS_DATA: Project[] = [
     category: "DevOps",
     image: "/trobustech",
     url: "trobustech.com",
-    description: "CI/CD pipeline configuration and server monitoring setup.",
+    description: "IT company.",
     tags: ["Linux", "Docker", "CI/CD"]
   }
 ];
