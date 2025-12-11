@@ -68,6 +68,16 @@ export const PROJECTS_DATA: Project[] = [
     url: "trobustech.com",
     description: "Tech company portfolio and service showcase."
   }
+   {
+    title: "JayateTech",
+    url: "jayatetech.com",
+    description: "Software Technology"
+  },
+   {
+    title: "Jayate Software",
+    url: "jayatesoftware.com",
+    description: "Software for network assesment"
+  },
 ];
 
 export const SKILLS_DATA: string[] = [
