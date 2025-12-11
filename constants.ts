@@ -67,6 +67,22 @@ export const PROJECTS_DATA: Project[] = [
     description: "IT Company",
     tags: ["WordPress", "javascript", "CSS3"]
   },
+    {
+    title: "JayateSoftware",
+    category: "WordPress",
+    image: "/jayatesoftware.png",
+    url: "jayatesoftware.com",
+    description: "Network Assesment Company",
+    tags: ["WordPress", "javascript", "CSS3"]
+  },
+    {
+    title: "JayateTech",
+    category: "WordPress",
+    image: "/jayatetech.png",
+    url: "jayatetech.com",
+    description: "IT Company",
+    tags: ["WordPress", "javascript", "CSS3"]
+  },
   {
     title: "Sales Funnels & Automation",
     category: "GHL/Shopify",
