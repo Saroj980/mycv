@@ -54,9 +54,17 @@ export const PROJECTS_DATA: Project[] = [
   {
     title: "Hotel Jiyan",
     category: "WordPress/Wix",
-    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop",
+    image: "/hoteljiyan.png",
     url: "hoteljiyan.com.np",
     description: "Full-featured hotel booking website with room management and reservation systems.",
+    tags: ["WordPress", "Booking Engine", "CSS3"]
+  },
+  {
+    title: "Lightwebgroup",
+    category: "WordPress/Wix",
+    image: "/lightwebgroup.png",
+    url: "lightwebgroup.com",
+    description: "IT Company",
     tags: ["WordPress", "Booking Engine", "CSS3"]
   },
   {
@@ -86,7 +94,7 @@ export const PROJECTS_DATA: Project[] = [
   {
     title: "Trobustech Infrastructure",
     category: "DevOps",
-    image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1470&auto=format&fit=crop",
+    image: "/trobustech",
     url: "trobustech.com",
     description: "CI/CD pipeline configuration and server monitoring setup.",
     tags: ["Linux", "Docker", "CI/CD"]
