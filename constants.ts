@@ -70,15 +70,15 @@ export const PROJECTS_DATA: Project[] = [
   {
     title: "Wholistic Brain Therapy",
     category: "WordPress/Wix",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1470&auto=format&fit=crop",
+    image: "/projects/wholisticbraintherapy.png",
     url: "wholisticbraintherapy.com",
     description: "Medical therapy service website offering appointment booking and information resources.",
     tags: ["WordPress", "Elementor", "SEO"]
   },
   {
     title: "Brain Tumor Center Nepal",
-    category: "WordPress/Wix",
-    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1470&auto=format&fit=crop",
+    category: "WordPress/Wix",image: "/projects/wholisticbraintherapy.png"
+    image: "/projects/braintumor.png",
     url: "braintumorcenternepal.org.np",
     description: "Informational portal for a medical center providing critical health resources.",
     tags: ["WordPress", "Custom Theme", "PHP"]
