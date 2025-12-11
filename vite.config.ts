@@ -6,10 +6,10 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: "/", // 🔥 IMPORTANT for Vercel to load assets correctly
+    base: "/", // FIX JS not loading on Vercel
 
     build: {
-      outDir: "dist", // 🔥 Ensures Vercel serves correct folder
+      outDir: "dist",       // Required by Vercel
       emptyOutDir: true,
     },
 
@@ -22,13 +22,13 @@ export default defineConfig(({ mode }) => {
 
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
     },
 
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, 'src'), // 🔥 Should point to /src not "."
-      },
-    },
+        '@': path.resolve(__dirname, 'src'),  // FIX import errors
+      }
+    }
   };
 });
