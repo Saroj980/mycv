@@ -67,7 +67,7 @@ export const PROJECTS_DATA: Project[] = [
     title: "Trobustech Portfolio",
     url: "trobustech.com",
     description: "Tech company portfolio and service showcase."
-  }
+  },
    {
     title: "JayateTech",
     url: "jayatetech.com",
