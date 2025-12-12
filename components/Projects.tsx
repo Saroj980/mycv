@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { PROJECTS_DATA } from '../constants';
 import { ExternalLink, ArrowUpRight } from 'lucide-react';
 
-const categories = ["All", "WordPress/Wix", "GHL/Shopify", "Laravel/PHP", "DevOps"];
+const categories = ["All", "WordPress/Wix", "GHL/Shopify", "React/Laravel","Laravel/PHP", "DevOps"];
 
 const ProjectCard: React.FC<{ project: typeof PROJECTS_DATA[0]; index: number }> = ({ project, index }) => {
   return (
@@ -75,6 +75,7 @@ const Projects: React.FC = () => {
     if (activeTab === "Laravel/PHP") return project.category.includes("Laravel") || project.category.includes("PHP");
     if (activeTab === "WordPress/Wix") return project.category.includes("WordPress") || project.category.includes("Wix");
     if (activeTab === "GHL/Shopify") return project.category.includes("GHL") || project.category.includes("Shopify");
+    if (activeTab === "Laravel/React") return project.category.includes("React") || project.category.includes("Laravel");
     return project.category === activeTab;
   });
 
