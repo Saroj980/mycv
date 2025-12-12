@@ -51,6 +51,15 @@ export const PROJECTS_DATA: Project[] = [
     description: "A comprehensive school management system handling student data, grading, and attendance designed with Core PHP.",
     tags: ["Core PHP", "MySQL", "Bootstrap"]
   },
+{
+    title: "Dynamic School Website",
+    category: "React/Laravel",
+    image: "/blackboard.png",
+    url: "demo.bbnepal.com",
+    description: "A comprehensive dynamic school website.",
+    tags: ["Laravel","React", "MySQL", "Bootstrap"]
+  },
+  
   {
     title: "Hotel Jiyan",
     category: "WordPress/Wix",
