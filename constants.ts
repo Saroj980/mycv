@@ -54,8 +54,8 @@ export const PROJECTS_DATA: Project[] = [
 {
     title: "Dynamic School Website",
     category: "React/Laravel",
-    image: "/blackboard.png",
-    url: "demo.bbnepal.com",
+    image: "/gogal.png",
+    url: "gogalprasad.edu.np",
     description: "A comprehensive dynamic school website.",
     tags: ["Laravel","React", "MySQL", "Bootstrap"]
   },
