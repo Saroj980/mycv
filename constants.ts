@@ -57,7 +57,15 @@ export const PROJECTS_DATA: Project[] = [
     image: "/gogal.png",
     url: "gogalprasad.edu.np",
     description: "A comprehensive dynamic school website.",
-    tags: ["Laravel","React", "MySQL", "Bootstrap"]
+    tags: ["Laravel","React","Custom Theme" "MySQL", "Bootstrap"]
+  },
+  {
+    title: "Dynamic School Website",
+    category: "React/Laravel",
+    image: "/durbar.png",
+    url: "thedurbarschool.edu.np",
+    description: "A comprehensive dynamic school website.",
+    tags: ["Laravel","React","Custom Theme" "MySQL", "Bootstrap"]
   },
   
   {
@@ -86,7 +94,7 @@ export const PROJECTS_DATA: Project[] = [
   },
     {
     title: "JayateTech",
-    category: "WordPress",
+    category: "Wordpress",
     image: "/jayatetech.png",
     url: "jayatetech.com",
     description: "IT Company",
@@ -106,11 +114,11 @@ export const PROJECTS_DATA: Project[] = [
     image: "/braintumor.png",
     url: "braintumorcenternepal.org.np",
     description: "Informational portal for a medical center providing critical health resources.",
-    tags: ["WordPress", "Custom Theme", "PHP"]
+    tags: ["WordPress", "Custom Theme", "CSS"]
   },
   {
     title: "Trobustech Infrastructure",
-    category: "DevOps",
+    category: "Wordpress",
     image: "/trobustech.png",
     url: "trobustech.com",
     description: "IT company.",
