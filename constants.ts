@@ -65,7 +65,7 @@ export const PROJECTS_DATA: Project[] = [
     image: "/durbar.png",
     url: "thedurbarschool.edu.np",
     description: "A comprehensive dynamic school website.",
-    tags: ["Laravel","React","Custom Theme" "MySQL", "Bootstrap"]
+    tags: ["Laravel","React","Custom Theme", "MySQL", "Bootstrap"]
   },
   
   {
